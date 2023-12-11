@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import coverImage from "@/assets/images/coverImage.jpg";
+
 export default function HeroSection() {
   return (
     <section className="relative w-full h-[90vh]">
