@@ -18,7 +18,7 @@ export default function EnrollChild() {
           <div className="w-[20px] h-[20px] rounded-full bg-[#E8063C] "></div>
         </div>
       </div>
-      <div className="text-[20px] sm:text-[30px] lg:text-[48px] font-bold flex justify-center items-center mt-10">
+      <div className="text-[20px] sm:!text-[30px] lg:!text-[48px] font-bold flex justify-center items-center mt-10">
         Enrol Your Child In A Session Now!
       </div>
       <div className="text-[10px] sm:text-[14px] lg:text-[18px] text-[#444444] flex justify-center ">
