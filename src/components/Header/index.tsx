@@ -6,13 +6,9 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SearchIcon from "@mui/icons-material/Search";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
-import MenuIcon from "@mui/icons-material/Menu";
-import Image from "next/image";
-import coverImage from "@/assets/images/coverImage.jpg";
 import TemporaryDrawer from "../menu";
 export default function Header() {
   const [isOpen, setMenu] = useState(false);
-  const toggleMenu = () => {};
   return (
     <div>
       <div>
@@ -67,10 +63,7 @@ export default function Header() {
             <div className="hover:text-[#BC0B54] cursor-pointer">Contact</div>
           </div>
           <div className="flex mr-1 sm:mr-10 md:mr-20 lg:gap-4  items-center">
-            <div
-              onClick={toggleMenu}
-              className="!bg-[#E8063C] lg:!bg-[#ffffff]  rounded-full text-[#ffffff] lg:text-[black] lg:hover:text-[#E8063C] "
-            >
+            <div>
               <TemporaryDrawer />
             </div>
             <div className="text-[14px] xl:text-[16px] !hidden lg:!flex  bg-[#E8063C] hover:bg-[#4D0D58] border-[#E8063C] border-[3px] px-2 xl:px-6 py-2 xl:py-3 font-semibold text-[#ffffff] rounded-full">
