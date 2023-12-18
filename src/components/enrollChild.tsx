@@ -26,7 +26,7 @@ export default function EnrollChild() {
         to all children.
       </div>
       <div className="flex py-40 gap-y-36 justify-center gap-7  flex-wrap">
-        <div className="group ml-2 sm:ml-0 w-[300px] relative">
+        <div className="group mr-3 w-[300px] relative">
           <Image className="rounded-3xl   top-6" src={image1} alt="image1" />
           <div className="bg-[#76AD1E] rounded-t-full  absolute top-6 w-full mt-56 h-60 text-[#ffffff] flex flex-col justify-center items-center ">
             <div className="text-[26px] font-bold">Active Learning</div>
@@ -40,8 +40,8 @@ export default function EnrollChild() {
             <ExtensionIcon style={{ fontSize: "50px" }} />
           </div>
         </div>
-        <div className=" group ml-2 sm:ml-0 w-[300px] relative">
-          <Image className="rounded-3xl   top-6" src={image1} alt="image1" />
+        <div className=" group mr-3  w-[300px] relative">
+          <Image className="rounded-3xl   top-6" src={image2} alt="image1" />
           <div className="bg-[#18C0CB] rounded-t-full  absolute top-6 w-full mt-56 h-60 text-[#ffffff] flex flex-col justify-center items-center ">
             <div className="text-[26px] font-bold">Child Care</div>
             <div className="text-[16px]">
@@ -54,8 +54,8 @@ export default function EnrollChild() {
             <ShieldIcon style={{ fontSize: "50px" }} />
           </div>
         </div>
-        <div className=" group ml-2 sm:ml-0 w-[300px] relative">
-          <Image className="rounded-3xl   top-6" src={image1} alt="image1" />
+        <div className=" group mr-3  w-[300px] relative">
+          <Image className="rounded-3xl   top-6" src={image3} alt="image1" />
           <div className="bg-[#490D59] rounded-t-full  absolute top-6 w-full mt-56 h-60 text-[#ffffff] flex flex-col justify-center items-center ">
             <div className="text-[26px] font-bold">Healthy Meals</div>
             <div className="text-[16px]">
@@ -68,8 +68,8 @@ export default function EnrollChild() {
             <LocalPizzaIcon style={{ fontSize: "50px" }} />
           </div>
         </div>
-        <div className=" group ml-2 sm:ml-0 w-[300px] relative">
-          <Image className="rounded-3xl   top-6" src={image1} alt="image1" />
+        <div className=" group mr-3  w-[300px] relative">
+          <Image className="rounded-3xl   top-6" src={image4} alt="image1" />
           <div className="bg-[#E93500] rounded-t-full  absolute top-6 w-full mt-56 h-60 text-[#ffffff] flex flex-col justify-center items-center ">
             <div className="text-[26px] font-bold">Secure Enviroment</div>
             <div className="text-[16px]">

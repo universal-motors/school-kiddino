@@ -2,6 +2,8 @@
 // import LogoLight from "@/assets/images/logo-light.png";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
+import logo from "@/assets/images/Logo-3.png";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import SearchIcon from "@mui/icons-material/Search";
 import EmailIcon from "@mui/icons-material/Email";
@@ -48,11 +50,7 @@ export default function Header() {
         </nav>
         <div className="ml-1 sm:ml-10 md:ml-20 lg:ml-0 mt-2 flex items-center !justify-between lg:!justify-evenly gap-5">
           <div>
-            <img
-              className="w-[200px] sm:w-[235px] h-[71px]"
-              src="https://html.vecurosoft.com/kiddino/demo/assets/img/logo.svg"
-              alt=""
-            />
+            <Image className="w-[100px]" src={logo} alt="" />
           </div>
           <div className="text-[18px]   font-bold !hidden lg:!flex gap-8">
             <div className="hover:text-[#BC0B54] cursor-pointer">Demo</div>
