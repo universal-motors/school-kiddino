@@ -5,13 +5,13 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 export default function Childbest() {
   return (
     <div className="">
-      <div className="flex justify-evenly items-center">
+      <div className="flex ml-1 mr-1 sm:ml-0 sm:mr-0 flex-col xl:flex-row justify-center xl:justify-evenly items-center">
         <div className="flex flex-col">
-          <div className="text-[60px] font-bold">
+          <div className="text-[40px] sm:text-[60px] font-bold">
             Your Child's Best <br />
             Start In Life
           </div>
-          <div className="text-[18px] text-[#444444]">
+          <div className="text-[16px] sm:text-[18px] text-[#444444]">
             We are constantly expanding the range of services offered, taking{" "}
             <br />
             children of all ages. Our goal is to carefully educate and develop{" "}
@@ -48,7 +48,7 @@ export default function Childbest() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mt-10 xl:mt-0">
           <img
             className="rounded-full"
             src="https://html.vecurosoft.com/kiddino/demo/assets/img/about/ab-2-1.jpg"
@@ -56,12 +56,14 @@ export default function Childbest() {
           />
         </div>
       </div>
-      <div className="flex justify-around items-center mt-28">
+      <div className="flex flex-col md:flex-row  justify-center  sm:justify-around items-center mt-28">
         <div>
-          <div className="font-bold text-[16px] text-[#E8063C]">
+          <div className="font-bold ml-10 text-[16px] text-[#E8063C]">
             CHOOSE YOUR OWN GRADE LEVEL
           </div>
-          <div className="text-[60px] font-bold">Smarty Programs</div>
+          <div className="text-[40px] ml-10 sm:text-[60px] font-bold">
+            Smarty Programs
+          </div>
         </div>
         <div className="flex gap-4">
           <div className="bg-[#E8063C] text-[#ffffff] hover:text-[#E8063C] hover:bg-white border-2 border-[#E8063C] w-14 h-14  flex items-center justify-center rounded-full">
@@ -72,7 +74,7 @@ export default function Childbest() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center gap-6 mt-6">
+      <div className="flex flex-wrap justify-center gap-6 mt-6">
         <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
           <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
             <div className="font-bold">GRADE</div>

@@ -1,0 +1,188 @@
+import React from 'react'
+import Image from 'next/image';
+import AddIcon from '@mui/icons-material/Add';
+import image1 from '@/assets/images/cl-1-1.jpg'
+import image2 from '@/assets/images/cl-1-2.jpg'
+import image3 from '@/assets/images/cl-1-3.jpg'
+import image4 from '@/assets/images/cl-1-4.jpg'
+export default function Preschool() {
+    return (
+        <div>
+            <div className="ml-4 flex flex-col relative items-center mt-10">
+                <div className="absolute w-[20px] h-[20px] rounded-full bg-[#FFD600]"></div>
+                <div className="flex absolute mt-4">
+                    <div className="w-[20px] h-[20px] rounded-full bg-[#490D59] "></div>
+                    <div className="w-[20px] h-[20px] rounded-full bg-[#E8063C] "></div>
+                </div>
+            </div>
+            <div className="text-[40px] sm:text-[60px] ml-10 font-bold flex justify-center items-center mt-10">
+                Preschool Classes
+            </div>
+            <div className="text-[16px] sm:text-[18px] ml-10 mr-2 text-[#444444] flex justify-center ">
+                Our preschool program has four dedicated classes
+            </div>
+            <div className=" mt-10 w-full">
+                <div className="flex gap-10 flex-wrap justify-center">
+                    <div className="group flex flex-col md:flex-row items-center">
+                        <div>
+                            <Image className="rounded-3xl w-[90%] sm:w-[360px] h-[306px] ml-2 " src={image1} alt="" />
+                        </div>
+                        <div className="border relative -top-10 md:top-0 md:-left-20   bg-[#FFFFFF] shadow-lg shadow-gray-500/50 rounded-3xl group-hover:border-[#E8063C] border-gray-400 w-[90%] sm:w-[358px] h-[244px] flex flex-col justify-center items-center">
+                            <div className="text-[20px] sm:text-[28px] font-bold ">
+                                Drawing & Painting
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Available:
+                                </div>
+                                <div className="18px">
+                                    20 Seats
+                                </div>
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Required:
+                                </div>
+                                <div className="18px">
+                                    2 - 6 Years
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-20">
+                                <div className="flex items-center gap-2">
+                                    <div className="text-[30px] sm:text-[50px] text-[#E8063C] font-bold">
+                                        $28
+                                    </div>
+                                    <div className="16px font-medium">
+                                        / month
+                                    </div>
+                                </div>
+                                <div className="border group-hover:bg-[#E8063C] group-hover:text-[#ffffff] w-12 h-12 rounded-full flex items-center justify-center border-gray-400">
+                                    <AddIcon style={{ fontSize: "30px" }} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="group flex flex-col md:flex-row items-center">
+                        <div >
+                            <Image className="rounded-3xl ml-2 w-[90%] sm:w-[360px] h-[306px]" src={image2} alt="" />
+                        </div>
+                        <div className="border relative -top-10 md:top-0 md:-left-20   bg-[#FFFFFF] shadow-lg shadow-gray-500/50 rounded-3xl group-hover:border-[#E8063C] border-gray-400 w-[90%] sm:w-[358px] h-[244px] flex flex-col justify-center items-center">
+                            <div className="text-[20px] sm:text-[28px] font-bold ">
+                                Drawing & Painting
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Available:
+                                </div>
+                                <div className="18px">
+                                    20 Seats
+                                </div>
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Required:
+                                </div>
+                                <div className="18px">
+                                    2 - 6 Years
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-20">
+                                <div className="flex items-center gap-2">
+                                    <div className="text-[30px] sm:text-[50px] text-[#E8063C] font-bold">
+                                        $28
+                                    </div>
+                                    <div className="16px font-medium">
+                                        / month
+                                    </div>
+                                </div>
+                                <div className="border group-hover:bg-[#E8063C] group-hover:text-[#ffffff] w-12 h-12 rounded-full flex items-center justify-center border-gray-400">
+                                    <AddIcon style={{ fontSize: "30px" }} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="group flex flex-col md:flex-row items-center">
+                        <div >
+                            <Image className="rounded-3xl ml-2 w-[90%] sm:w-[360px] h-[306px]" src={image3} alt="" />
+                        </div>
+                        <div className="border relative -top-10 md:top-0 md:-left-20   bg-[#FFFFFF] shadow-lg shadow-gray-500/50 rounded-3xl group-hover:border-[#E8063C] border-gray-400 w-[90%] sm:w-[358px] h-[244px] flex flex-col justify-center items-center">
+                            <div className="text-[20px] sm:text-[28px] font-bold ">
+                                Drawing & Painting
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Available:
+                                </div>
+                                <div className="18px">
+                                    20 Seats
+                                </div>
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Required:
+                                </div>
+                                <div className="18px">
+                                    2 - 6 Years
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-20">
+                                <div className="flex items-center gap-2">
+                                    <div className="text-[30px] sm:text-[50px] text-[#E8063C] font-bold">
+                                        $28
+                                    </div>
+                                    <div className="16px font-medium">
+                                        / month
+                                    </div>
+                                </div>
+                                <div className="border group-hover:bg-[#E8063C] group-hover:text-[#ffffff] w-12 h-12 rounded-full flex items-center justify-center border-gray-400">
+                                    <AddIcon style={{ fontSize: "30px" }} />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="group flex flex-col md:flex-row items-center">
+                        <div >
+                            <Image className="rounded-3xl ml-2 w-[90%] sm:w-[360px] h-[306px]" src={image4} alt="" />
+                        </div>
+                        <div className="border relative -top-10 md:top-0 md:-left-20   bg-[#FFFFFF] shadow-lg shadow-gray-500/50 rounded-3xl group-hover:border-[#E8063C] border-gray-400 w-[90%] sm:w-[358px] h-[244px] flex flex-col justify-center items-center">
+                            <div className="text-[20px] sm:text-[28px] font-bold ">
+                                Drawing & Painting
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Available:
+                                </div>
+                                <div className="18px">
+                                    20 Seats
+                                </div>
+                            </div>
+                            <div className="flex gap-2 items-center">
+                                <div className="text-[18px] text-[#490D59] font-bold">
+                                    Required:
+                                </div>
+                                <div className="18px">
+                                    2 - 6 Years
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-20">
+                                <div className="flex items-center gap-2">
+                                    <div className="text-[30px] sm:text-[50px] text-[#E8063C] font-bold">
+                                        $28
+                                    </div>
+                                    <div className="16px font-medium">
+                                        / month
+                                    </div>
+                                </div>
+                                <div className="border group-hover:bg-[#E8063C] group-hover:text-[#ffffff] w-12 h-12 rounded-full flex items-center justify-center border-gray-400">
+                                    <AddIcon style={{ fontSize: "30px" }} />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
