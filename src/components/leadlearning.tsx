@@ -1,26 +1,36 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "@/assets/images/ab-1-1.jpg";
-import image2 from "@/assets/images/ab-1-2.jpg";
-import image3 from "@/assets/images/ab-1-3.jpg";
-import image4 from "@/assets/images/ab-1-4.jpg";
+import image1 from "@/assets/images/stdentimg1.webp";
+import image2 from "@/assets/images/img.webp";
+import image3 from "@/assets/images/stdentimg3.webp";
+import image4 from "@/assets/images/img4.webp";
 import ChaletIcon from "@mui/icons-material/Chalet";
 import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 export default function Leadlearning() {
   return (
-    <div className="flex m-auto w-[90%] sm:w-[100%] flex-col lg:flex-row  items-center justify-center xl:justify-center mt-8">
+    <div className="flex m-auto w-[90%] sm:w-[100%] flex-col lg:flex-row  items-center justify-center xl:justify-center mt-28">
       <div>
-        <div className="flex gap-8">
+        <div id="aboutUs" className="flex gap-8">
           <div>
             <Image
-              className="rounded-tl-[110px] rounded-bl-[50px] rounded-tr-[50px]"
+              className="rounded-tl-[110px] rounded-bl-[50px] rounded-tr-[50px] !h-[200px] sm:!h-[293px] "
+              style={{
+                objectFit: "cover",
+                width: "278px",
+                height: "293px",
+              }}
               src={image1}
               alt="image1"
             />
           </div>
           <div>
             <Image
-              className="rounded-tr-[110px] rounded-br-[50px] rounded-tl-[50px]"
+              className="rounded-tr-[110px] rounded-br-[50px]  rounded-tl-[50px] !h-[200px] sm:!h-[293px]"
+              style={{
+                objectFit: "cover",
+                width: "278px",
+                height: "293px",
+              }}
               src={image2}
               alt="image2"
             />
@@ -29,14 +39,24 @@ export default function Leadlearning() {
         <div className="flex gap-8 mt-8">
           <div>
             <Image
-              className="rounded-bl-[110px] rounded-br-[50px] rounded-tl-[50px]"
+              className="rounded-bl-[110px] rounded-br-[50px] rounded-tl-[50px] !h-[200px] sm:!h-[293px]"
+              style={{
+                objectFit: "cover",
+                width: "278px",
+                height: "293px",
+              }}
               src={image3}
               alt="image3"
             />
           </div>
           <div>
             <Image
-              className="rounded-br-[110px] rounded-bl-[50px] rounded-tr-[50px]"
+              className="rounded-br-[110px] rounded-bl-[50px] rounded-tr-[50px] !h-[200px] sm:!h-[293px]"
+              style={{
+                objectFit: "cover",
+                width: "278px",
+                height: "293px",
+              }}
               src={image4}
               alt="image4"
             />

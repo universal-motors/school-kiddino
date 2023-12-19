@@ -1,7 +1,10 @@
 import React from "react";
+import Image from "next/image";
 import TaskAltIcon from "@mui/icons-material/TaskAlt";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import image from "@/assets/images/round.jpg";
+import GradeSlider from "./grade";
 export default function Childbest() {
   return (
     <div className="">
@@ -49,9 +52,12 @@ export default function Childbest() {
           </div>
         </div>
         <div className="mt-10 xl:mt-0">
-          <img
-            className="rounded-full"
-            src="https://html.vecurosoft.com/kiddino/demo/assets/img/about/ab-2-1.jpg"
+          <Image
+            className="rounded-full h-[330px] sm:h-[618px] w-[330px] sm:w-[618px]"
+            style={{
+              objectFit: "cover",
+            }}
+            src={image}
             alt=""
           />
         </div>
@@ -65,77 +71,16 @@ export default function Childbest() {
             Smarty Programs
           </div>
         </div>
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <div className="bg-[#E8063C] text-[#ffffff] hover:text-[#E8063C] hover:bg-white border-2 border-[#E8063C] w-14 h-14  flex items-center justify-center rounded-full">
             <ArrowBackIcon style={{ fontSize: "40px" }} />
           </div>
           <div className="bg-[#E8063C] text-[#ffffff] hover:text-[#E8063C] hover:bg-white border-2 border-[#E8063C] w-14 h-14  flex items-center justify-center rounded-full">
             <ArrowForwardIcon style={{ fontSize: "40px" }} />
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="flex flex-wrap justify-center gap-6 mt-6">
-        <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
-          <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-            <div className="font-bold">GRADE</div>
-            <div className="text-[30px] font-bold ">1</div>
-          </div>
-          <div className="text-[30px] group-hover:text-[white] font-bold mt-5">
-            Grade 1
-          </div>
-          <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-            ( 4 - 5 years )
-          </div>
-        </div>
-        <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
-          <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-            <div className="font-bold">GRADE</div>
-            <div className="text-[30px] font-bold ">1</div>
-          </div>
-          <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-            Grade 1
-          </div>
-          <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-            ( 4 - 5 years )
-          </div>
-        </div>
-        <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
-          <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-            <div className="font-bold">GRADE</div>
-            <div className="text-[30px] font-bold ">1</div>
-          </div>
-          <div className="text-[30px] font-bold group-hover:text-[white]  mt-5">
-            Grade 1
-          </div>
-          <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-            ( 4 - 5 years )
-          </div>
-        </div>
-        <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
-          <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-            <div className="font-bold">GRADE</div>
-            <div className="text-[30px] font-bold ">1</div>
-          </div>
-          <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-            Grade 1
-          </div>
-          <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-            ( 4 - 5 years )
-          </div>
-        </div>
-        <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
-          <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-            <div className="font-bold">GRADE</div>
-            <div className="text-[30px] font-bold ">1</div>
-          </div>
-          <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-            Grade 1
-          </div>
-          <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-            ( 4 - 5 years )
-          </div>
-        </div>
-      </div>
+      <GradeSlider />
     </div>
   );
 }

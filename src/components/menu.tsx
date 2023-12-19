@@ -18,6 +18,7 @@ import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Anchor } from "@mui/icons-material";
+import Link from "next/link";
 
 type Anchor = "right" | "left";
 
@@ -215,7 +216,9 @@ export default function TemporaryDrawer() {
                           <div>
                             <ArrowForwardIosIcon style={{ fontSize: "15px" }} />
                           </div>
-                          <div className="font-extrabold">Demo</div>
+                          <Link href={"#home"}>
+                            <div className="font-extrabold">Home</div>
+                          </Link>
                         </div>
                         <div className="bg-[#490D59] flex items-center justify-center text-[#ffffff]  w-8 h-8 rounded-full">
                           <AddIcon />
@@ -229,7 +232,9 @@ export default function TemporaryDrawer() {
                           <div>
                             <ArrowForwardIosIcon style={{ fontSize: "15px" }} />
                           </div>
-                          <div className="font-extrabold">About Us</div>
+                          <Link href={"#aboutUs"}>
+                            <div className="font-extrabold">About Us</div>
+                          </Link>
                         </div>
                       </div>
                       <hr className="w-[80%] ml-8 mt-3" />
@@ -240,7 +245,9 @@ export default function TemporaryDrawer() {
                           <div>
                             <ArrowForwardIosIcon style={{ fontSize: "15px" }} />
                           </div>
-                          <div className="font-extrabold">Classes</div>
+                          <Link href={"#classes"}>
+                            <div className="font-extrabold">Classes</div>
+                          </Link>
                         </div>
                         <div className="bg-[#490D59] flex items-center justify-center text-[#ffffff]  w-8 h-8 rounded-full">
                           <AddIcon />
@@ -248,7 +255,7 @@ export default function TemporaryDrawer() {
                       </div>
                       <hr className="w-[80%] ml-8 mt-3" />
                     </div>
-                    <div className="mt-3">
+                    {/* <div className="mt-3">
                       <div className="flex justify-between ml-7 mr-7">
                         <div className="flex gap-2 items-center">
                           <div>
@@ -261,14 +268,16 @@ export default function TemporaryDrawer() {
                         </div>
                       </div>
                       <hr className="w-[80%] ml-8 mt-3" />
-                    </div>
+                    </div> */}
                     <div className="mt-3">
                       <div className="flex justify-between ml-7 mr-7">
                         <div className="flex gap-2 items-center">
                           <div>
                             <ArrowForwardIosIcon style={{ fontSize: "15px" }} />
                           </div>
-                          <div className="font-extrabold">Pages</div>
+                          <Link href={"#testimonial"}>
+                            <div className="font-extrabold">Testimonials</div>
+                          </Link>
                         </div>
                         <div className="bg-[#490D59] flex items-center justify-center text-[#ffffff]  w-8 h-8 rounded-full">
                           <AddIcon />
@@ -282,7 +291,9 @@ export default function TemporaryDrawer() {
                           <div>
                             <ArrowForwardIosIcon style={{ fontSize: "15px" }} />
                           </div>
-                          <div className="font-extrabold">Contact Us</div>
+                          <Link href={"#contact"}>
+                            <div className="font-extrabold">Contact Us</div>
+                          </Link>
                         </div>
                         <div className="bg-[#490D59] flex items-center justify-center text-[#ffffff]  w-8 h-8 rounded-full">
                           <AddIcon />
