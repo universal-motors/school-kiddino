@@ -13,8 +13,8 @@ export default function Header() {
   const [isOpen, setMenu] = useState(false);
   return (
     <div>
-      <div>
-        <nav className="bg-[#490D59] py-2" id="navbar">
+      <div className="">
+        {/* <nav className="bg-[#490D59] py-2" id="navbar">
           <div className="flex flex-wrap items-center justify-evenly">
             <div className="!hidden lg:!flex gap-7">
               <div className="text-[#ffffff] hover:text-[#BC0844] cursor-pointer">
@@ -47,18 +47,33 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </nav>
-        <div className="ml-1 sm:ml-10 md:ml-20 lg:ml-0 mt-2 flex items-center !justify-between lg:!justify-evenly gap-5">
+        </nav> */}
+        <div className="ml-1 sm:ml-10 md:ml-20 lg:ml-0  flex items-center bg-[#ffffff]  fixed z-50 w-full top-0 !justify-between lg:!justify-evenly gap-5">
           <div>
             <Image className="w-[100px]" src={logo} alt="" />
           </div>
           <div className="text-[18px]   font-bold !hidden lg:!flex gap-8">
-            <div className="hover:text-[#BC0B54] cursor-pointer">Demo</div>
-            <div className="hover:text-[#BC0B54] cursor-pointer">About Us</div>
-            <div className="hover:text-[#BC0B54] cursor-pointer">Classes</div>
-            <div className="hover:text-[#BC0B54] cursor-pointer">Blog</div>
-            <div className="hover:text-[#BC0B54] cursor-pointer">Pages</div>
-            <div className="hover:text-[#BC0B54] cursor-pointer">Contact</div>
+            <Link href={"#home"}>
+              <div className="hover:text-[#BC0B54] cursor-pointer">Home</div>
+            </Link>
+
+            <Link href={"#aboutUs"}>
+              <div className="hover:text-[#BC0B54] cursor-pointer">
+                About Us
+              </div>
+            </Link>
+            <Link href={"#classes"}>
+              <div className="hover:text-[#BC0B54] cursor-pointer">Classes</div>
+            </Link>
+
+            <Link href={"#testimonial"}>
+              <div className="hover:text-[#BC0B54] cursor-pointer">
+                Testimonials
+              </div>
+            </Link>
+            <Link href={"#contact"}>
+              <div className="hover:text-[#BC0B54] cursor-pointer">Contact</div>
+            </Link>
           </div>
           <div className="flex mr-1 sm:mr-10 md:mr-20 lg:gap-4  items-center">
             <div>
