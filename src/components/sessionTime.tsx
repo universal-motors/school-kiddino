@@ -9,48 +9,68 @@ export default function SessionTime() {
             sx={{ fontSize: { xs: "40px", sm: "50px", md: "70px" } }}
           />
         </div>
-        <div className="text-[30px] sm:text-[40px] lg:text-[60px] font-bold text-[#ffffff]">
-          Session Times
+        <div>
+          <p className="text-[30px] sm:text-[40px] lg:text-[60px] font-bold text-[#ffffff]">
+            Session Times
+          </p>
         </div>
-        <div className="text-[14px] sm:text-[16px] lg:text-[18px] ml-2 mr-2  text-[#ffffff]">
-          We provide full day care from 8.30am to 3.30pm for children aged 18{" "}
-          <br />
-          months to 5 years,
-        </div>
-        <div className="flex items-center mt-2 justify-evenly w-[90%] sm:w-[450px] lg:w-[550px] rounded-full  h-[49px] hover:bg-[#FFD600] bg-[#ffffff]">
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
-            Early Drop Off
-          </div>
-          <div className="text-[20px] sm:text-[30px]">|</div>
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
-            8.00am – 10.00am
-          </div>
+        <div>
+          <p className="text-[14px] sm:text-[16px] lg:text-[18px] ml-2 mr-2  text-[#ffffff]">
+            We provide full day care from 8.30am to 3.30pm for children aged 18{" "}
+            <br />
+            months to 5 years,
+          </p>
         </div>
         <div className="flex items-center mt-2 justify-evenly w-[90%] sm:w-[450px] lg:w-[550px] rounded-full  h-[49px] hover:bg-[#FFD600] bg-[#ffffff]">
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
-            Early Drop Off
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
+              Early Drop Off
+            </p>
           </div>
           <div className="text-[20px] sm:text-[30px]">|</div>
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
-            8.00am – 10.00am
-          </div>
-        </div>
-        <div className="flex items-center mt-2 justify-evenly w-[90%] sm:w-[450px] lg:w-[550px] rounded-full  h-[49px] hover:bg-[#FFD600] bg-[#ffffff]">
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
-            Early Drop Off
-          </div>
-          <div className="text-[20px] sm:text-[30px]">|</div>
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
-            8.00am – 10.00am
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
+              8.00am – 10.00am
+            </p>
           </div>
         </div>
         <div className="flex items-center mt-2 justify-evenly w-[90%] sm:w-[450px] lg:w-[550px] rounded-full  h-[49px] hover:bg-[#FFD600] bg-[#ffffff]">
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
-            Early Drop Off
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
+              Early Drop Off
+            </p>
           </div>
           <div className="text-[20px] sm:text-[30px]">|</div>
-          <div className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
-            8.00am – 10.00am
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
+              8.00am – 10.00am
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center mt-2 justify-evenly w-[90%] sm:w-[450px] lg:w-[550px] rounded-full  h-[49px] hover:bg-[#FFD600] bg-[#ffffff]">
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
+              Early Drop Off
+            </p>
+          </div>
+          <div className="text-[20px] sm:text-[30px]">|</div>
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
+              8.00am – 10.00am
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center mt-2 justify-evenly w-[90%] sm:w-[450px] lg:w-[550px] rounded-full  h-[49px] hover:bg-[#FFD600] bg-[#ffffff]">
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px] font-bold">
+              Early Drop Off
+            </p>
+          </div>
+          <div className="text-[20px] sm:text-[30px]">|</div>
+          <div>
+            <p className="text-[14px] sm:text-[16px] lg:text-[18px]  font-bold">
+              8.00am – 10.00am
+            </p>
           </div>
         </div>
       </div>
