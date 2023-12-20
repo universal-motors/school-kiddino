@@ -11,11 +11,15 @@ export default function Testimonials() {
         id="testimonial"
         className="flex flex-col justify-center items-center"
       >
-        <div className="text-[16px] text-[#E8063C] font-extrabold">
-          TESTIMONIALS
+        <div>
+          <p className="text-[16px] text-[#E8063C] font-extrabold">
+            TESTIMONIALS
+          </p>
         </div>
-        <div className="text-[30px] sm:text-[48px] mt-4 font-bold">
-          Parents Reviews
+        <div>
+          <p className="text-[30px] sm:text-[48px] mt-4 font-bold">
+            Parents Reviews
+          </p>
         </div>
         <div className="w-[300px] sm:w-[550px]">
           <SidebarSlider />

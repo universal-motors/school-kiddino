@@ -10,56 +10,66 @@ export default function BasicAccordion() {
     {
       heading: "First Little Readers (Levels A-C)",
       para: (
-        <p>
+        <Typography
+          sx={{ fontSize: { xs: "12px", sm: "16px" }, color: "#444444" }}
+        >
           Enrolment Events are like open days or open weeks at Busy Bees. It's a
           chance <br /> for you to visit your local nursery, take a look around,
           and see some of <br />
           exciting activities in action.
-        </p>
+        </Typography>
       ),
     },
     {
       heading: "What Age Do Start Preschool?",
       para: (
-        <p>
+        <Typography
+          sx={{ fontSize: { xs: "12px", sm: "16px" }, color: "#444444" }}
+        >
           Enrolment Events are like open days or open weeks at Busy Bees. It's a
           chance <br /> for you to visit your local nursery, take a look around,
           and see some of <br />
           exciting activities in action.
-        </p>
+        </Typography>
       ),
     },
     {
       heading: "Is My Child Ready For Preschool?",
       para: (
-        <p>
+        <Typography
+          sx={{ fontSize: { xs: "12px", sm: "16px" }, color: "#444444" }}
+        >
           Enrolment Events are like open days or open weeks at Busy Bees. It's a
           chance <br /> for you to visit your local nursery, take a look around,
           and see some of <br />
           exciting activities in action.
-        </p>
+        </Typography>
       ),
     },
     {
       heading: "Can Your Child Separate from you?",
       para: (
-        <p>
+        <Typography
+          sx={{ fontSize: { xs: "12px", sm: "16px" }, color: "#444444" }}
+        >
           Enrolment Events are like open days or open weeks at Busy Bees. It's a
           chance <br /> for you to visit your local nursery, take a look around,
           and see some of <br />
           exciting activities in action.
-        </p>
+        </Typography>
       ),
     },
     {
       heading: "Can Your Child Play With Others?",
       para: (
-        <p>
+        <Typography
+          sx={{ fontSize: { xs: "12px", sm: "16px" }, color: "#444444" }}
+        >
           Enrolment Events are like open days or open weeks at Busy Bees. It's a
           chance <br /> for you to visit your local nursery, take a look around,
           and see some of <br />
           exciting activities in action.
-        </p>
+        </Typography>
       ),
     },
   ];
@@ -93,13 +103,7 @@ export default function BasicAccordion() {
                 {itm.heading}
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "16px" }, color: "#444444" }}
-              >
-                {itm.para}
-              </Typography>
-            </AccordionDetails>
+            <AccordionDetails>{itm.para}</AccordionDetails>
           </Accordion>
         );
       })}
