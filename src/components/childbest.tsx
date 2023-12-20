@@ -10,29 +10,27 @@ export default function Childbest() {
     <div className="">
       <div className="flex ml-1 mr-1 sm:ml-0 sm:mr-0 flex-col xl:flex-row justify-center xl:justify-evenly items-center">
         <div className="flex flex-col">
-          <div className="text-[40px] sm:text-[60px] font-bold">
-            Your Child's Best <br />
-            Start In Life
+          <div>
+            <p className="text-[40px] sm:text-[60px] font-bold">
+              Safety & security
+            </p>
           </div>
-          <div className="text-[16px] sm:text-[18px] text-[#444444]">
-            We are constantly expanding the range of services offered, taking{" "}
-            <br />
-            children of all ages. Our goal is to carefully educate and develop{" "}
-            <br />a fun way. We strive to turn the learning process.
+          <div>
+            <p className="text-[16px] sm:text-[18px] text-[#444444] w-[90%] sm:w-[453px]">
+              we have the proper measure in palace such as secure entrance ,
+              emergency procedures and security cameras
+            </p>
           </div>
           <div className="text-[16px ] text-[#444444] mt-10 ">
             <div className="flex gap-2 items-center">
               <div className="text-[#EC3C66]">
                 <TaskAltIcon />
               </div>
-              <div>Comprehensive reporting on individual achievement</div>
-            </div>
-            <div className="flex gap-2 items-center mt-3">
-              <div className="text-[#EC3C66]">
-                <TaskAltIcon />
-              </div>
-              <div className="">
-                Educational field trips and school presentations
+              <div>
+                <p>
+                  Building access is limites to registered parents & authorized
+                  staff
+                </p>
               </div>
             </div>
             <div className="flex gap-2 items-center mt-3">
@@ -40,14 +38,30 @@ export default function Childbest() {
                 <TaskAltIcon />
               </div>
               <div className="">
-                Individual attention in a small-class setting
+                <p>
+                  For our families convenience we are offering safe and
+                  efficient door drop-off and pick-up
+                </p>
               </div>
             </div>
             <div className="flex gap-2 items-center mt-3">
               <div className="text-[#EC3C66]">
                 <TaskAltIcon />
               </div>
-              <div className="">Learning program with after-school care</div>
+              <div className="">
+                <p>
+                  We use bright wheel so that you can check on your's child
+                  safety
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-2 items-center mt-3">
+              <div className="text-[#EC3C66]">
+                <TaskAltIcon />
+              </div>
+              <div className="">
+                <p>Yo can check daily progress</p>
+              </div>
             </div>
           </div>
         </div>
@@ -64,11 +78,15 @@ export default function Childbest() {
       </div>
       <div className="flex flex-col md:flex-row  justify-center  sm:justify-around items-center mt-28">
         <div>
-          <div className="font-bold ml-10 text-[16px] text-[#E8063C]">
-            CHOOSE YOUR OWN GRADE LEVEL
+          <div>
+            <p className="font-bold ml-10 text-[16px] text-[#E8063C]">
+              CHOOSE YOUR OWN GRADE LEVEL
+            </p>
           </div>
-          <div className="text-[40px] ml-10 sm:text-[60px] font-bold">
-            Smarty Programs
+          <div>
+            <p className="text-[40px] ml-10 sm:text-[60px] font-bold">
+              Smarty Programs
+            </p>
           </div>
         </div>
         {/* <div className="flex gap-4">
