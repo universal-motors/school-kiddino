@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import AddIcon from "@mui/icons-material/Add";
-import image5 from "@/assets/images/image5.jpg";
-import image7 from "@/assets/images/image7.jpg";
-import image3 from "@/assets/images/presvhool3.jpg";
-import image4 from "@/assets/images/presvhool4.jpg";
+import image5 from "@/assets/images/image5.jpeg";
+import image7 from "@/assets/images/image7.jpeg";
+import image3 from "@/assets/images/presvhool3.jpeg";
+import image4 from "@/assets/images/presvhool4.jpeg";
 export default function Preschool() {
   return (
     <div>

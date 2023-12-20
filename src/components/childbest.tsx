@@ -3,7 +3,7 @@ import Image from "next/image";
 import TaskAltIcon from "@mui/icons-material/TaskAlt";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import image from "@/assets/images/round.jpg";
+import image from "@/assets/images/round.jpeg";
 import GradeSlider from "./grade";
 export default function Childbest() {
   return (
