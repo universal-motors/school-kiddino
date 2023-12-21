@@ -5,7 +5,6 @@ import HeroSection from "@/components/heroSection";
 import Leadlearning from "@/components/leadlearning";
 import EnrollChild from "@/components/enrollChild";
 import Childbest from "@/components/childbest";
-import SessionTime from "@/components/sessionTime";
 import Preschool from "@/components/preschool";
 import Owngrade from "@/components/owngrade";
 import Testimonials from "@/components/testimonials";
@@ -21,6 +20,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import Footer from "./dashboard/components/footer";
+import SessionTime from "@/components/sessionTime";
 export default function HomePage() {
   return (
     <Box>

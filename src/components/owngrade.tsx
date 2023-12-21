@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import guide from "@/assets/images/accordionImage.jpg";
+import guide from "@/assets/images/accordionImage.jpeg";
 // import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import BasicAccordion from "./accordion";
 
@@ -21,12 +21,14 @@ export default function Owngrade() {
         </div>
         <div className="flex flex-col pl-4 justify-center">
           <div className="text-[14px] sm:text-[16px]  font-extrabold text-[#E8063C]">
-            CHOOSE YOUR OWN GRADE LEVEL
+            <p>CHOOSE YOUR OWN GRADE LEVEL</p>
           </div>
           <div className="text-[30px] sm:text-[40px] xl:text-[60px] font-bold">
-            Guide To Preschool
+            <p>Guide To Preschool</p>
           </div>
-          <BasicAccordion />
+          <div>
+            <BasicAccordion />
+          </div>
         </div>
         {/* <div className="flex  !items-center sm:!items-start flex-col">
           <div className="text-[14px] sm:text-[16px]  font-extrabold text-[#E8063C]">

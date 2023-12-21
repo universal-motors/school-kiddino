@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "@/assets/images/stdentimg1.webp";
-import image2 from "@/assets/images/img.webp";
-import image3 from "@/assets/images/stdentimg3.webp";
-import image4 from "@/assets/images/img4.webp";
+import image1 from "@/assets/images/stdentimg1.jpeg";
+import image2 from "@/assets/images/img.jpeg";
+import image3 from "@/assets/images/stdentimg3.jpeg";
+import image4 from "@/assets/images/img4.jpeg";
 import ChaletIcon from "@mui/icons-material/Chalet";
 import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 export default function Leadlearning() {
@@ -64,21 +64,29 @@ export default function Leadlearning() {
         </div>
       </div>
       <div className="flex flex-col justify-center mt-10 lg:mt-0 ml-3 sm:ml-20">
-        <div className="font-bold text-[16px] text-[#E8063C]">
-          PART OF THE FAMILY SINCE 2001,
+        <div>
+          <p className="font-bold text-[16px] text-[#E8063C]">
+            PART OF THE FAMILY SINCE 2007,
+          </p>
         </div>
-        <div className="text-[40px] xl:text-[60px] font-semibold">
-          Your Child Will Take <br />
-          The Lead Learning
+        <div>
+          <p className="text-[40px] xl:text-[60px] font-semibold">
+            Where Journey Begins!
+          </p>
         </div>
-        <div className="text-[16px] xl:text-[18px]">
-          We are constantly expanding the range of services offered, taking care
-          of <br />
-          children of all ages. Our goal is to carefully educate and develop
-          children <br />
-          in a fun way. We strive to turn the learning process into a bright
-          event so <br />
-          that children study with pleasure.
+        <div>
+          <p className="text-[16px] xl:text-[18px]">
+            your child will be learning the alphabet phonics, numbers, fine
+            motors skills art crafts,
+            <br />
+            and prewritting skills. your child will be meeting many new friends
+            and establishing <br />
+            children in a fun way. We strive to turn the learning process into a
+            bright new exciting <br />
+            relationships, we have specious playground where your children can
+            laugh, run and <br />
+            have fun!
+          </p>
         </div>
         <div className="flex  items-center gap-10">
           <div className="flex items-center gap-4">
@@ -87,10 +95,12 @@ export default function Leadlearning() {
             </div>
             <div>
               <div className="text-[30px] sm:text-[40px] xl:text-[60px] font-semibold text-[#E8063C] ">
-                75
+                <p>75</p>
               </div>
-              <div className="text-[14px] sm:text-[16px] xl:text-[18px]  font-semibold">
-                Outdoor Activities
+              <div>
+                <p className="text-[14px] sm:text-[16px] xl:text-[18px]  font-semibold">
+                  Outdoor Activities
+                </p>
               </div>
             </div>
           </div>
@@ -101,11 +111,15 @@ export default function Leadlearning() {
               />
             </div>
             <div>
-              <div className="text-[30px] sm:text-[40px] xl:text-[60px] font-semibold text-[#E8063C] ">
-                23
+              <div>
+                <p className="text-[30px] sm:text-[40px] xl:text-[60px] font-semibold text-[#E8063C] ">
+                  23
+                </p>
               </div>
-              <div className="text-[14px] sm:text-[16px] xl:text-[18px]  font-semibold">
-                Loving Teachers
+              <div>
+                <p className="text-[14px] sm:text-[16px] xl:text-[18px]  font-semibold">
+                  Loving Teachers
+                </p>
               </div>
             </div>
           </div>

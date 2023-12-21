@@ -30,126 +30,206 @@ export default function GradeSlider() {
             <div className="flex flex-wrap justify-center py-10 gap-6 mt-6">
               <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white] font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white] font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
               <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
-                </div>
-              </div>
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
-                <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
-                </div>
-                <div className="text-[30px] font-bold group-hover:text-[white]  mt-5">
-                  Grade 1
-                </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
+                </div>
+              </div>
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
+                <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-wrap justify-center py-5 gap-6 mt-6">
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white] font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
               <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
-                </div>
-              </div>
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
-                <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
-                </div>
-                <div className="text-[30px] font-bold group-hover:text-[white]  mt-5">
-                  Grade 1
-                </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white]  font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
+                </div>
+              </div>
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
+                <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
             </div>
@@ -171,32 +251,48 @@ export default function GradeSlider() {
         >
           <SwiperSlide>
             <div className="flex flex-wrap justify-center py-10 gap-6 mt-6">
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white] font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex flex-wrap justify-center py-10 gap-6 mt-6">
-              <div className="shadow-xl w-[246px] h-[254px] group hover:bg-[#490D59] flex flex-col justify-center items-center rounded-xl">
+              <div className="shadow-xl w-[246px] group hover:bg-[#490D59]  h-[254px] flex flex-col justify-center items-center rounded-xl">
                 <div className="bg-[#E8063C] shadow-2xl text-[white] w-[90px] h-[90px] flex flex-col items-center justify-center rounded-full ">
-                  <div className="font-bold">GRADE</div>
-                  <div className="text-[30px] font-bold ">1</div>
+                  <div>
+                    <p className="font-bold">GRADE</p>
+                  </div>
+                  <div>
+                    <p className="text-[30px] font-bold ">1</p>
+                  </div>
                 </div>
-                <div className="text-[30px] group-hover:text-[white] font-bold mt-5">
-                  Grade 1
+                <div>
+                  <p className="text-[30px] group-hover:text-[white]  font-bold mt-5">
+                    Grade 1
+                  </p>
                 </div>
-                <div className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
-                  ( 4 - 5 years )
+                <div>
+                  <p className="text-[16px] group-hover:text-[white]  text-[#444444] mt-3">
+                    ( 4 - 5 years )
+                  </p>
                 </div>
               </div>
             </div>
