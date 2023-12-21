@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import coverImage from "@/assets/images/cover.jpg";
+import coverImage from "@/assets/images/cover.jpeg";
 
 export default function HeroSection() {
   return (

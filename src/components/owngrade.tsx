@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import guide from "@/assets/images/accordionImage.jpg";
+import guide from "@/assets/images/accordionImage.jpeg";
 // import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import BasicAccordion from "./accordion";
 

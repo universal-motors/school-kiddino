@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "@/assets/images/stdentimg1.webp";
-import image2 from "@/assets/images/img.webp";
-import image3 from "@/assets/images/stdentimg3.webp";
-import image4 from "@/assets/images/img4.webp";
+import image1 from "@/assets/images/stdentimg1.jpeg";
+import image2 from "@/assets/images/img.jpeg";
+import image3 from "@/assets/images/stdentimg3.jpeg";
+import image4 from "@/assets/images/img4.jpeg";
 import ChaletIcon from "@mui/icons-material/Chalet";
 import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 export default function Leadlearning() {
