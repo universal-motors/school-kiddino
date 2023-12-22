@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
 import logo from "@/assets/images/Logo-3.png";
 import PlaceIcon from "@mui/icons-material/Place";
@@ -123,7 +124,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-10">
-          <div>
+          {/* <div>
             <div className="flex gap-2 group cursor-pointer">
               <div className="text-[#FFD600] ">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
@@ -174,16 +175,18 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
               <div className="text-[#FFD600]">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
               <div>
-                <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                  Join or Renew
-                </p>
+                <Link href={"#home"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    Home
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
@@ -191,9 +194,11 @@ export default function Footer() {
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
               <div>
-                <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                  Membership Options
-                </p>
+                <Link href={"#aboutUs"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    About us
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
@@ -201,9 +206,11 @@ export default function Footer() {
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
               <div>
-                <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                  Families Membership
-                </p>
+                <Link href={"#classes"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    Classes
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
@@ -211,9 +218,11 @@ export default function Footer() {
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
               <div>
-                <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                  Contact Us
-                </p>
+                <Link href={"#testimonial"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    Testimonials
+                  </p>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import coverImage from "@/assets/images/cover.jpg";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -29,11 +30,13 @@ export default function HeroSection() {
               Montessori Is A Nurturing And Holistic Approach To Learning
             </p>
           </div>
-          <div>
-            <p className=" text-[12px] sm:text-[14px] md:text-[16px] mt-5 flex justify-center bg-[#E8063C] hover:bg-[#4D0D58] border-[#E8063C] border-[3px] px-4 md:px-6 py-2 md:py-3 font-semibold text-[#ffffff] rounded-full">
-              Apply Today
-            </p>
-          </div>
+          <Link href={"/dashboard"}>
+            <div>
+              <p className=" text-[12px] sm:text-[14px] md:text-[16px] mt-5 flex justify-center bg-[#E8063C] hover:bg-[#4D0D58] border-[#E8063C] border-[3px] px-4 md:px-6 py-2 md:py-3 font-semibold text-[#ffffff] rounded-full">
+                Apply Today
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </section>

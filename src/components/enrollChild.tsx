@@ -25,8 +25,8 @@ export default function EnrollChild() {
       </div>
       <div>
         <p className="text-[10px] sm:text-[14px] lg:text-[18px] text-[#444444] flex justify-center ">
-          Pre-school has an ‘open door policy’ and also offer a free trial
-          session to all children.
+          We offer before & after school care,enrichment programs,summer camps &
+          so much more
         </p>
       </div>
       <div className="flex py-40 gap-y-36 justify-center gap-7   flex-wrap">
