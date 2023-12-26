@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import testi from "@/assets/images/testi-1-1.jpeg";
+import testi from "@/assets/images/testi-1-1.png";
 import StarIcon from "@mui/icons-material/Star";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import SidebarSlider from "./sweper";
