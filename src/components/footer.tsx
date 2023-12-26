@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
-import logo from "@/assets/images/Logo-3.png";
+import logo from "@/assets/images/Logo.png";
 import PlaceIcon from "@mui/icons-material/Place";
 import image1 from "@/assets/images/gal-2-1.jpg";
 import image2 from "@/assets/images/gal-2-2.jpg";

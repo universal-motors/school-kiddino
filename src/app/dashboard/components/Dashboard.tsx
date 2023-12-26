@@ -25,10 +25,10 @@ const Dashboard = () => {
     <Box>
       <div className="bg-[#F1F4FB]  flex mt-20">
         <div className="bg-[#ffffff] !hidden lg:!flex w-[290px]  flex-col  ">
-          <div className="text-[#2B3674] text-[26px] font-bold flex justify-center">
+          {/* <div className="text-[#2B3674] text-[26px] font-bold flex justify-center">
             HORIZON <span>FREE</span>
-          </div>
-          <hr className="mt-10" />
+          </div> */}
+          {/* <hr className="mt-10" /> */}
           <div className="pl-10">
             <div className="flex  gap-5 mt-10">
               <div className="text-[#4318ff]">

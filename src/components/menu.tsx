@@ -9,7 +9,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import CloseIcon from "@mui/icons-material/Close";
 import HomeIcon from "@mui/icons-material/Home";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
-import logo from "@/assets/images/Logo-3.png";
+import logo from "@/assets/images/Logo.png";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import AddIcon from "@mui/icons-material/Add";
 import List from "@mui/material/List";
@@ -67,7 +67,7 @@ export default function TemporaryDrawer() {
                 <Box sx={{ width: 500 }}>
                   <div
                     onClick={toggleDrawer(anchor, false)}
-                    className="flex items-end justify-end bg-[#E8063C] text-[#ffffff] w-6 rounded-full mt-2 ml-3"
+                    className="flex items-end justify-end bg-[#E8063C] text-[#ffffff] w-6 rounded-full mt-2 ml-3 cursor-pointer"
                   >
                     <CloseIcon />
                   </div>
@@ -206,7 +206,7 @@ export default function TemporaryDrawer() {
                 <Box sx={{ width: 300 }}>
                   <div
                     onClick={toggleDrawer(anchor, false)}
-                    className="flex items-end justify-end bg-[#E8063C] text-[#ffffff] w-6 rounded-full mt-2 ml-3"
+                    className="flex items-end justify-end bg-[#E8063C] text-[#ffffff] w-6 rounded-full mt-2 ml-3 cursor-pointer"
                   >
                     <CloseIcon />
                   </div>
