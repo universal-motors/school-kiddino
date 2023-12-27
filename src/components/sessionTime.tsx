@@ -16,8 +16,7 @@ export default function SessionTime() {
         </div>
         <div>
           <p className="text-[14px] sm:text-[16px] lg:text-[18px] ml-2 mr-2  text-[#ffffff]">
-            We provide full day care from 8.30am to 3.30pm for children aged 18{" "}
-            <br />
+            We provide full day care from 8.30am to 3.30pm for children aged 18
             months to 5 years,
           </p>
         </div>

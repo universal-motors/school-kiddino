@@ -2,11 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
-import logo from "@/assets/images/Logo.png";
+import logo from "@/assets/images/logo.png";
 import PlaceIcon from "@mui/icons-material/Place";
-import image1 from "@/assets/images/gal-2-1.jpg";
-import image2 from "@/assets/images/gal-2-2.jpg";
-import image3 from "@/assets/images/gal-2-3.jpg";
+import image5 from "@/assets/images/image5.jpeg";
+import image7 from "@/assets/images/image7.jpeg";
+import image3 from "@/assets/images/presvhool3.jpeg";
+import image4 from "@/assets/images/presvhool4.jpeg";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
@@ -31,13 +32,28 @@ export default function Footer() {
         </div>
         <div className="flex gap-3 mt-10">
           <div>
-            <Image className="rounded-3xl" src={image1} alt="" />
+            <Image
+              style={{ width: "120px" }}
+              className="rounded-3xl"
+              src={image4}
+              alt=""
+            />
           </div>
           <div>
-            <Image className="rounded-3xl" src={image2} alt="" />
+            <Image
+              style={{ width: "120px" }}
+              className="rounded-3xl"
+              src={image7}
+              alt=""
+            />
           </div>
           <div>
-            <Image className="rounded-3xl" src={image3} alt="" />
+            <Image
+              style={{ width: "120px" }}
+              className="rounded-3xl"
+              src={image3}
+              alt=""
+            />
           </div>
         </div>
       </div>

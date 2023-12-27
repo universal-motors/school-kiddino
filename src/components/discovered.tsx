@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import background from "@/assets/images/Products 2.png";
+import background from "@/assets/images/Products.jpeg";
 export default function Discovered() {
   return (
     <div className="w-[100%] h-[400px] relative mt-5">

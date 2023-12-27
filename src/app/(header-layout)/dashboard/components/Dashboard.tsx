@@ -20,7 +20,10 @@ import Table from "@/components/table";
 import Kanban from "@/components/kanban";
 import ProfileIcon from "@/components/profile";
 import Signin from "@/components/signin";
+import Link from "next/link";
+// import { usePathname } from 'next/navigation'
 const Dashboard = () => {
+  // const pathname = usePathname()
   return (
     <Box>
       <div className="bg-[#F1F4FB]  flex mt-20">
@@ -34,40 +37,50 @@ const Dashboard = () => {
               <div className="text-[#4318ff]">
                 <HomeIcon />
               </div>
-              <div className="text-[16px] font-bold text-[#2B3674]">
-                Dashboard
+              <div>
+                <p className="text-[16px] font-bold text-[#2B3674]">
+                  Dashboard
+                </p>
               </div>
             </div>
             <div className="flex  gap-5 mt-10">
               <div className="text-[#A3AED0]">
                 <LocalGroceryStoreIcon />
               </div>
-              <div className="text-[16px] text-[#A3AED0]">NFT Marketplace</div>
+              <div>
+                <p className="text-[16px] text-[#A3AED0]">NFT Marketplace</p>
+              </div>
             </div>
             <div className="flex  gap-5 mt-10">
               <div className="text-[#A3AED0]">
                 <Table />
               </div>
-              <div className="text-[16px] text-[#A3AED0]">Tables</div>
+              <div>
+                <p className="text-[16px] text-[#A3AED0]">Tables</p>
+              </div>
             </div>
             <div className="flex  gap-5 mt-10">
               <div className="text-[#A3AED0]">
                 <Kanban />
               </div>
-              <div className="text-[16px] text-[#A3AED0]">Kanban</div>
+              <div>
+                <p className="text-[16px] text-[#A3AED0]">Kanban</p>{" "}
+              </div>
             </div>
             <div className="flex  gap-5 mt-10">
               <div className="text-[#A3AED0]">
                 <ProfileIcon />
               </div>
-              <div className="text-[16px] text-[#A3AED0]">Profile</div>
-            </div>
-            <div className="flex  gap-5 mt-10">
-              <div className="text-[#A3AED0]">
-                <Signin />
+              <div>
+                <p className="text-[16px] text-[#A3AED0]">Profile</p>
               </div>
-              <div className="text-[16px] mb-10 text-[#A3AED0]">Sign In</div>
             </div>
+            <Link href="/signin">
+              <div className="flex gap-5 mt-10 text-[#A3AED0]">
+                <Signin />
+                <p className="text-[16px] mb-10 ">Sign In</p>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="w-full pl-5 pr-5 pt-5">

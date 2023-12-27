@@ -9,7 +9,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import CloseIcon from "@mui/icons-material/Close";
 import HomeIcon from "@mui/icons-material/Home";
 import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
-import logo from "@/assets/images/Logo.png";
+import logo from "@/assets/images/logo.png";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import AddIcon from "@mui/icons-material/Add";
 import List from "@mui/material/List";
@@ -111,7 +111,7 @@ export default function TemporaryDrawer() {
                         </span>
                       </div>
                     </div>
-                    <div className="text-[30px] font-bold mt-8">
+                    {/* <div className="text-[30px] font-bold mt-8">
                       Latest News
                     </div>
                     <div className="flex items-center mt-6 gap-4">
@@ -176,7 +176,7 @@ export default function TemporaryDrawer() {
                           the earliest
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </Box>
               </div>

@@ -19,7 +19,7 @@ import image3 from "@/assets/images/gal-2-3.jpg";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import Footer from "../components/footer";
+import Footer from "../../components/footer";
 import SessionTime from "@/components/sessionTime";
 export default function HomePage() {
   return (
