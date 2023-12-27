@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
-import logo from "@/assets/images/Logo-3.jpeg";
+import logo from "@/assets/images/logo.png";
 import PlaceIcon from "@mui/icons-material/Place";
-import image1 from "@/assets/images/gal-2-1.jpeg";
-import image2 from "@/assets/images/gal-2-2.jpeg";
-import image3 from "@/assets/images/gal-2-3.jpeg";
+import image5 from "@/assets/images/image5.jpeg";
+import image7 from "@/assets/images/image7.jpeg";
+import image3 from "@/assets/images/presvhool3.jpeg";
+import image4 from "@/assets/images/presvhool4.jpeg";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
@@ -30,13 +32,28 @@ export default function Footer() {
         </div>
         <div className="flex gap-3 mt-10">
           <div>
-            <Image className="rounded-3xl" src={image1} alt="" />
+            <Image
+              style={{ width: "120px" }}
+              className="rounded-3xl"
+              src={image4}
+              alt=""
+            />
           </div>
           <div>
-            <Image className="rounded-3xl" src={image2} alt="" />
+            <Image
+              style={{ width: "120px" }}
+              className="rounded-3xl"
+              src={image7}
+              alt=""
+            />
           </div>
           <div>
-            <Image className="rounded-3xl" src={image3} alt="" />
+            <Image
+              style={{ width: "120px" }}
+              className="rounded-3xl"
+              src={image3}
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -90,7 +107,7 @@ export default function Footer() {
           Useful Services
         </div>
         <div className="flex items-center gap-10">
-          <div>
+          {/* <div>
             <div className="flex gap-2 group cursor-pointer">
               <div className="text-[#FFD600] ">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
@@ -131,38 +148,54 @@ export default function Footer() {
                 Advertise
               </div>
             </div>
-          </div>
+          </div> */}
           <div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
               <div className="text-[#FFD600]">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
-              <div className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                Join or Renew
+              <div>
+                <Link href={"#home"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    Home
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
               <div className="text-[#FFD600]">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
-              <div className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                Membership Options
+              <div>
+                <Link href={"#aboutUs"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    About us
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
               <div className="text-[#FFD600]">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
-              <div className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                Families Membership
+              <div>
+                <Link href={"#classes"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    Classes
+                  </p>
+                </Link>
               </div>
             </div>
             <div className="flex gap-2 mt-3  group cursor-pointer">
               <div className="text-[#FFD600]">
                 <FiberManualRecordIcon style={{ fontSize: "10px" }} />
               </div>
-              <div className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
-                Contact Us
+              <div>
+                <Link href={"#testimonial"}>
+                  <p className="text-[#ffffff] text-[14px] sm:text-[18px] group-hover:text-[#E80951] ">
+                    Testimonials
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
